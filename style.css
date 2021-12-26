@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Open+Sans+Condensed:ital,wght@1,300&family=Vujahday+Script&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.sidebar{
+    /* position: absolute; */
+    background-color: rgba(139, 132, 132, 0.849);
+    font-family: 'Vujahday Script', cursive;
+    width: 21vw;
+    height: 100vh;
+
+}
+.sidebar nav{
+    padding: 23px;
+    font-size: 23px;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav li{
+    list-style: none;
+    margin: 33px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: #000;
+}
+.main{
+    /* background-color: white; */
+
+    width: 90vw;
+    
+}
+.infocontainer{
+    /* background-color: rgb(180, 114, 114); */
+    /* border: 2px solid black;  */
+    background-image: url();
+    visibility: visible;
+    height: 70vh;
+    width: 80vw;
+    margin: 78px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 66px;
+}
+.name{
+    font-size: 50px;
+}
+.about{
+font-size: 30px;
+}
+.btn{
+margin-top: 34px;
+}
+.btn button{
+    padding: 5px 10px;
+    border-radius: 11px;
+    color: rgb(247, 240, 240);
+    background-color: rgb(96, 96, 216);
+    cursor: pointer;
+}
+.btn button:hover{
+    color: rgb(96, 96, 216);
+    background-color: rgb(247, 240, 240);
+    font-weight: bold;
+
+}
+.devpic img{
+    height: 70vh;
+    width: 30vw;
+
+}
+.container{
+    display: flex;
+}
+/* contact.html */
+.form{
+    margin-top: 50px;
+}
+.form div{
+    margin: 2vh;
+    display: flex;
+    flex-direction: column;
+}
+#emailHelp{
+    font-size: 7px;
+    color: rgb(104, 104, 185);
+}
+.mb-3 input{
+    color: rgb(19, 18, 18);
+    background-color: rgb(164, 218, 193);
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    width: 15vw;
+}
+.btn {
+    padding: 5px 10px;
+    border-radius: 11px;
+    color: rgb(247, 240, 240);
+    background-color: rgb(96, 96, 216);
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(96, 96, 216);
+    background-color: rgb(247, 240, 240);
+    font-weight: bold;
+}
+/* blog.html */
+
+.blogscroll{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.blogcontainer{
+/* margin: 5vh 10vw; */
+font-family: 'Vujahday Script', cursive;
+text-align: center;
+padding: 0vh 0vw;
+}
+.blogitem{
+margin: 0vh 10vw;
+padding: 0vh 0vw;
+color: rgb(243, 12, 12);
+font-family: 'Vujahday Script', cursive;
+
+}
+.blogitem h2{
+margin: 0vh 0vw;
+padding: 0vh 0vw;
+color: rgb(47, 12, 243);
+font-family: 'Vujahday Script', cursive;
+
+}
+/* info.html */
+.myinfo{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.myinfo h2{
+    font-family: 'Vujahday Script', cursive;
+    margin-left: 10px;
+}
+.myinfo p{
+font-style: italic;
+margin-left: 10px;
+}
+.skillcontainer{
+    margin: 12px;
+}
+.skill{
+    background-color: green;
+    width: 30vw;
+    height: 5px;
+}
+.sidebargo {
+    transform: translate(-272px, 10px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.cross{
+    margin: 2px 0vw 0px 15vw;
+}
+/* follow */
+.logo{
+    display: flex;
+}
+
+/* Responsive */
+@media (max-width:1000px) {
+    *{
+        background-color: white;
+    }
+    .devpic{
+        display: none;
+    }
+    .sidebar{
+        /* transform: translate(-421px 0px); */
+        position: absolute;
+        /* width: 40vw; */
+    }
+    
+}
+@media (max-width:600px){
+    .sidebar{
+        width: 35vw;
+        background-color: rgb(59, 58, 59);
+    }
+}
+/* sevice.html */
+.service{
+    text-align: center;
+    border: 2px solid black;
+    padding: 10vh 0px;
+}
+.images{
+    border: 2px solid black;
+    padding: 14.5vh 0px;
+    display: flex; 
+}
+.img{
+    margin: 0px 20px;
+    
+}
+.images{
+    overflow: hidden;
+    overflow-x: scroll;
+}
